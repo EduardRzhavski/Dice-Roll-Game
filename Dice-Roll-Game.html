@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Dice-Roll-Game.css" />
+    <title>Dice Roll Game</title>
+</head>
+<body>
+    
+    <h1>Dice Game</h1>
+    <div id="winning-score-container">
+        <label for="winning-score">Set Winning Score:</label>
+        <input type="number" id="winning-score" value="100">
+        <p>Winning Score: <span id="display-winning-score">100</span></p>
+    </div>
+    <div class="container">
+        <div class="column">
+            <h2>Player 1</h2>
+            <p id="score1">Current Score: 0<br>Total Score: 0</p>
+        </div>
+        <div class="column">
+            <div id="dice-container">
+                <img class="dice" src="dice1.png" alt="Dice 1">
+                <img class="dice" src="dice1.png" alt="Dice 2">
+            </div>
+            <p id="message">Player 1's Turn</p>
+            <p id="current-roll">Current Roll: 0</p>
+            <button id="roll">Roll</button>
+            <button id="hold">Hold</button>
+            <button id="new-game">New Game</button>
+        </div>
+        <div class="column">
+            <h2>Player 2</h2>
+            <p id="score2">Current Score: 0<br>Total Score: 0</p>
+        </div>
+    </div>
+
+    <script src="Dice-Roll-Game.js"></script>
+
+</body>
+</html>

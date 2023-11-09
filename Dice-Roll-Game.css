@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+}
+.column {
+    text-align: center;
+    flex: 1;
+}
+#dice-container {
+    display: flex;
+    justify-content: space-around;
+}
+.dice {
+    width: 100px;
+    height: 100px;
+}
+#score {
+    font-size: 18px;
+}
+button {
+    font-size: 18px;
+    margin: 10px;
+    padding: 10px 20px;
+}
+#winning-score-container {
+    margin: 20px 0;
+}
